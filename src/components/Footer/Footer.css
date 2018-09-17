@@ -1,0 +1,11 @@
+footer {
+
+    font-family: 'Ruslan Display', cursive;
+    color: lawngreen;
+}
+
+footer.page-footer {
+    background-color: transparent;
+    font-size: 20px;
+    color: lawngreen;
+}

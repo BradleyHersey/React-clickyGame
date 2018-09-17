@@ -1,0 +1,32 @@
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+    position: relative;
+    background-image: url("https://vignette.wikia.nocookie.net/central/images/4/4b/Ultimate_anime_world_cup_by_cristyann-d8o38t3.jpg/revision/latest?cb=20161112063951");
+    background-size: cover;
+    
+
+}
+
+main {
+	flex: 1 0 auto;
+}
+
+.shake {
+    animation: shake 0.5s; 
+}
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-30deg); }
+    20% { transform: translate(-3px, 0px) rotate(30deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(30deg); }
+    50% { transform: translate(-1px, 2px) rotate(-30deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-30deg); }
+    80% { transform: translate(-1px, -1px) rotate(30deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-30deg); }
+}

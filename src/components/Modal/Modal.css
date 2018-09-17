@@ -1,0 +1,39 @@
+ol {
+  width: 400px;
+  margin: auto;
+}
+
+.instructionsModal {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  background-size: cover;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQguxf3hugv41NAzl4cdBy9wo8hZC0pwILup_MUAL3BoFbx1BB9Bw');
+  color:lawngreen;
+  padding-top: 20%;
+  font-family: 'Ruslan Display', cursive;
+}
+
+.btn {
+  -webkit-animation-name: bttn;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes bttn {
+  from {
+    border-color: #9a0202;
+    -webkit-box-shadow: 0 0 20px rgb(255, 157, 0);
+  }
+
+  50% {
+    border-color: #fffb00;
+    -webkit-box-shadow: 0 0 40px #ff0000;
+  }
+
+  to {
+    border-color: #e5ff00;
+    -webkit-box-shadow: 0 0 20px rgb(179, 255, 0);
+  }
+}
